@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 777742cf80562cd47b3e2ca06e3a8624
+guid: 0277dc2d409f61e44ad9816de5d57ec0
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -164,42 +164,64 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tileset_0
+      name: heart (1)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 59
+        width: 64
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b707f0dc26cd84482c86181d0efad3
+      internalID: -756365501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart (1)_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 59
+        width: 64
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e2c56643124cb942ab4ec1c6a9ffbab
+      internalID: 1772544643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart (1)_2
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 128
-        height: 96
+        width: 64
+        height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -63, y: 0}
-        - {x: -63, y: 48}
-        - {x: -16, y: 48}
-        - {x: -17, y: 0}
-      - - {x: -17, y: 0}
-        - {x: -17, y: 0}
-        - {x: -16, y: 0}
-        - {x: -16, y: 0}
-      - - {x: -17, y: 0}
-        - {x: -17, y: 0}
-        - {x: -17, y: 0}
-        - {x: -17, y: 0}
-      - - {x: -63, y: -47}
-        - {x: -63, y: -1}
-        - {x: -16, y: -1}
-        - {x: -16, y: -47}
-      - - {x: 16, y: -45}
-        - {x: 16, y: 0}
-        - {x: 63, y: 0}
-        - {x: 63, y: -45}
+      outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4cc892eadab625418d582489b764057
-      internalID: -645593764
+      spriteID: d6ef2dace16755d4d8b37825e9d786a5
+      internalID: 2090003568
       vertices: []
       indices: 
       edges: []
@@ -215,7 +237,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Tileset_0: -645593764
+      heart (1)_0: -756365501
+      heart (1)_2: 2090003568
+      heart (1)_1: 1772544643
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
