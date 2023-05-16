@@ -8,7 +8,7 @@ public class healthheartbar : MonoBehaviour
     public Sprite fullHeart, halfHeart, emptyHeart;
     Image heartImage;
 
-    privaet void Awake()
+    private void Awake()
     {
         heartImage = GetComponent<Image>();
     }
