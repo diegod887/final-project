@@ -2,16 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class playermovement : MonoBehaviour
+public class PlayerMovement : MonoBehaviour
 {
-    public float movespeed;
-    public float jumpForce;
-    public Rigidbody2D rb;
-    public bool faceright = true;
-    private float moveDirection;
-    private bool isJumping = false;
+    public float speed;
+    public float jump;
+
+    private float move;
+    private Rigidbody2D rb;
+    private bool isJumping;
+    
     // Start is called before the first frame update
-    private void Awake()
+    void Start()
     {
         rb = GetComponent<Rigidbody2D>();
     }
@@ -19,65 +20,22 @@ public class playermovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        moveDirection = Input.GetAxis("Horizontal");
-        if (Input.GetButton("Jump"))
+        move = Input.GetAxis("Horizontal");
+
+        rb.velocity = new Vector2(move * speed, rb.velocity.y);
+        if (Input.GetButtonDown("Jump") && !isJumping)
         {
+            rb.AddForce(new Vector2(rb.velocity.x, jump));
             isJumping = true;
         }
-        if (moveDirection > 0 && !faceright)
-        {
-            flipcharacter();
-        }
-        else if (moveDirection < 0 && faceright)
-        {
-            flipcharacter();
-        }
-        
-    }
-    private void FixedUpdate()
-    {
-        rb.velocity = new Vector2(moveDirection * movespeed, rb.velocity.y);
-        if (isJumping)
-        {
-            rb.AddForce(new Vector2(0f, jumpForce));
-        }
-        isJumping = false;
-    }
-    private void flipcharacter()
-    {
-        faceright = !faceright;
-        transform.Rotate(0f, 180f, 0f);
     }
 
-    private void ProcessInputs()
+    void OnCollisionEnter2D(Collision2D collision)
     {
-
-    }
-    IEnumerator PowerUpSpeed()
-    {
-        movespeed = 9;
-        yield return new WaitForSeconds(5);
-        movespeed = 5;
-    }
-
-    public void SpeedPowerUp()
-    {
-        StartCoroutine(PowerUpSpeed());
-    }
-
-    public void OnCollisionEnter2D(Collision2D col)
-    {
-        if (col.gameObject.tag == "MovingPlatform")
+        if (gameObject.CompareTag("Ground"))
         {
-            transform.parent = col.transform;
+            isJumping = false;
         }
     }
 
-    private void OnCollisionExit2D(Collision2D col)
-    {
-        if (col.gameObject.tag == "MovingPlatform")
-        {
-            transform.parent = null;
-        }
-    }
 }
