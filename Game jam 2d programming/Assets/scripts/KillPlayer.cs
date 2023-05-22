@@ -11,21 +11,38 @@ public class KillPlayer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> origin/Diego
     }
 
     // Update is called once per frame
     void Update()
     {
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> origin/Diego
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
+<<<<<<< HEAD
         if(other.CompareTag("Player"))
+=======
+        if (other.CompareTag("Player"))
+>>>>>>> origin/Diego
         {
             SceneManager.LoadScene(Respawn);
         }
     }
 
 }
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> origin/Diego

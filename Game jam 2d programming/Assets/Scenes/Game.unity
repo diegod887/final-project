@@ -1580,8 +1580,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 864188429}
+<<<<<<< HEAD:Game jam 2d programming/Assets/Scenes/Game.unity
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 11.734939, y: -2.7943149, z: 0.045038283}
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10.03, y: -0.97, z: 0}
+>>>>>>> origin/Diego:Game jam 2d programming/Assets/Scenes/grey boxing.unity
   m_LocalScale: {x: 1.1553, y: 8.0911, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3014,8 +3019,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1431251068}
+<<<<<<< HEAD:Game jam 2d programming/Assets/Scenes/Game.unity
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -10.985062, y: -1.4388149, z: 0.045038283}
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -10.75, y: 0.08, z: 0}
+>>>>>>> origin/Diego:Game jam 2d programming/Assets/Scenes/grey boxing.unity
   m_LocalScale: {x: 1.465837, y: 11.403978, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
