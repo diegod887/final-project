@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 89887ed0c8db3fd4fa4b5538a90b7da0
+guid: 0277dc2d409f61e44ad9816de5d57ec0
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -164,169 +164,64 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ExampleTiles_0
+      name: heart (1)_0
       rect:
         serializedVersion: 2
-        x: 16
-        y: 96
-        width: 80
-        height: 80
+        x: 0
+        y: 59
+        width: 64
+        height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da9a7309e474ffb45b77111d16380aa6
-      internalID: -1688621321
+      spriteID: 74b707f0dc26cd84482c86181d0efad3
+      internalID: -756365501
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ExampleTiles_1
+      name: heart (1)_1
       rect:
         serializedVersion: 2
-        x: 112
-        y: 97
-        width: 80
-        height: 79
+        x: 64
+        y: 59
+        width: 64
+        height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0eb38af576cd4d74aa7106cdf634f25d
-      internalID: -529567406
+      spriteID: 4e2c56643124cb942ab4ec1c6a9ffbab
+      internalID: 1772544643
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ExampleTiles_2
+      name: heart (1)_2
       rect:
         serializedVersion: 2
-        x: 208
-        y: 97
-        width: 96
-        height: 79
+        x: 0
+        y: 0
+        width: 64
+        height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26b402d849a7ba94eb9c991585c74378
-      internalID: 2032921936
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ExampleTiles_3
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 1
-        width: 80
-        height: 78
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7f534c972e649df498455fd52aa74630
-      internalID: -1036544370
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ExampleTiles_4
-      rect:
-        serializedVersion: 2
-        x: 113
-        y: 1
-        width: 79
-        height: 78
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: abcc0eb6e438a2c4c80eda4496ac8ae0
-      internalID: 522386665
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ExampleTiles_5
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 1
-        width: 32
-        height: 78
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b884ab9558a78dc44a8c912978ac0a26
-      internalID: -2061125527
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ExampleTiles_6
-      rect:
-        serializedVersion: 2
-        x: 257
-        y: 49
-        width: 31
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 80412060e86da9046bd5a239a885f7d0
-      internalID: -199667534
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ExampleTiles_7
-      rect:
-        serializedVersion: 2
-        x: 241
-        y: 17
-        width: 63
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 47d64e2fd4e2fdd45826485210979f0b
-      internalID: -1789349807
+      spriteID: d6ef2dace16755d4d8b37825e9d786a5
+      internalID: 2090003568
       vertices: []
       indices: 
       edges: []
@@ -342,14 +237,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ExampleTiles_7: -1789349807
-      ExampleTiles_4: 522386665
-      ExampleTiles_5: -2061125527
-      ExampleTiles_1: -529567406
-      ExampleTiles_0: -1688621321
-      ExampleTiles_2: 2032921936
-      ExampleTiles_3: -1036544370
-      ExampleTiles_6: -199667534
+      heart (1)_0: -756365501
+      heart (1)_2: 2090003568
+      heart (1)_1: 1772544643
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
