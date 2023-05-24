@@ -7,7 +7,7 @@ public class patrolbehavior : MonoBehaviour
     public float speed;
     public float rayDist;
     private bool movingRight;
-    public Transform groundDetect
+    public Transform groundDetect;
 
     // Start is called before the first frame update
     void Start()
